@@ -6,14 +6,14 @@ public class MyClass implements Comparable<MyClass> {
         this.value = value;
     }
     @Override
-    public boolean equals(Object o) {
-        return this.value == ((MyClass)o).value;
-    }
-    @Override
     public int compareTo(MyClass o) {
-        return this.value > o.value ? 1 : -1;
+        if(this.value == o.value) {
+            return 0;
+        }
+        else {
+            return this.value > o.value ? 1 : -1;
+        }
     }
-
     @Override
     public String toString() {
         return "" + value;

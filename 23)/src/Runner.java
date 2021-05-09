@@ -14,7 +14,7 @@ public class Runner {
             arr[i] = rand.nextInt();
         }
         System.out.println(Arrays.toString(arr));
-        Arrays.sort(arr, (Integer o1, Integer o2) -> o2 - o1);
+        Arrays.sort(arr, (Integer o1, Integer o2) -> o1 > o2 ? -1 : 1);
         System.out.println(Arrays.toString(arr));
 
     }
