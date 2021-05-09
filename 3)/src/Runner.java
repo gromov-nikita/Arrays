@@ -7,7 +7,7 @@ first method. In main( ) test the methods by creating and printing several diffe
 arrays.
  */
 public class Runner {
-    public static double[][] newArray(int rows, int columns) throws IllegalArgumentException{
+    public static <T> T[][] newArray(int rows, int columns) throws IllegalArgumentException{
         int max,min;
         if(rows <= 0 || columns <= 0) {
             throw new IllegalArgumentException();
@@ -22,15 +22,15 @@ public class Runner {
                 min = rows;
             }
         }
-        double[][] arr = new double[rows][columns];
+        Object[][] arr = new Object[rows][columns];
         for(int i = 0; i < rows; i++) {
             for(int j = 0; j < columns; j++) {
                 arr[i][j] = Math.random() * (max - min) + min;
             }
         }
-        return arr;
+        return (T[][])arr;
     }
-    public static void printArray(double[][] arr) {
+    public static <T> void printArray(T[][] arr) {
         for(int i = 0; i < arr.length; i++) {
             for(int j = 0; j < arr[0].length; j++) {
                 System.out.print(arr[i][j] + "   ");
@@ -41,6 +41,6 @@ public class Runner {
     public static void main(String[] args) {
         printArray(newArray(5,7));
         System.out.println();
-        printArray(newArray(7,7));
+        printArray(newArray(7,5));
     }
 }

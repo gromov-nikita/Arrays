@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02c6b055-9a4f-4359-9441-04ea12f0ba68" name="Default Changelist" comment="" />
+    <list default="true" id="02c6b055-9a4f-4359-9441-04ea12f0ba68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13)/out/production/13)/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../13)/out/production/13)/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13)/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../13)/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21)/out/production/21)/Runner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21)/out/production/21)/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../21)/out/production/21)/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21)/out/production/21)/models/BerylliumSphere.class" beforeDir="false" afterPath="$PROJECT_DIR$/../21)/out/production/21)/models/BerylliumSphere.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21)/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../21)/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21)/src/models/BerylliumSphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/../21)/src/models/BerylliumSphere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../23)/out/production/23)/Runner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../23)/out/production/23)/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../23)/out/production/23)/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../23)/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../23)/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24)/out/production/24)/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../24)/out/production/24)/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3)/out/production/3)/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3)/out/production/3)/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3)/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3)/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +32,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1reu1VLTvR15SECf2PFkelhlKYU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +44,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -51,21 +75,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1322" height="177" key="GridCell.Tab.0.bottom" timestamp="1619349313522">
+    <state width="1322" height="177" key="GridCell.Tab.0.bottom" timestamp="1620593408201">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1619349313522" />
-    <state width="1322" height="177" key="GridCell.Tab.0.center" timestamp="1619349313519">
+    <state width="1322" height="177" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1620593408201" />
+    <state width="1322" height="177" key="GridCell.Tab.0.center" timestamp="1620593408201">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1619349313519" />
-    <state width="1322" height="177" key="GridCell.Tab.0.left" timestamp="1619349313519">
+    <state width="1322" height="177" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1620593408201" />
+    <state width="1322" height="177" key="GridCell.Tab.0.left" timestamp="1620593408201">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1619349313519" />
-    <state width="1322" height="177" key="GridCell.Tab.0.right" timestamp="1619349313519">
+    <state width="1322" height="177" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1620593408201" />
+    <state width="1322" height="177" key="GridCell.Tab.0.right" timestamp="1620593408201">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1619349313519" />
+    <state width="1322" height="177" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1620593408201" />
+    <state x="492" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620593079793">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="492" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1620593079793" />
   </component>
 </project>

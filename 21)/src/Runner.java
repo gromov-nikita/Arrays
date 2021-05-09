@@ -17,12 +17,7 @@ public class Runner  {
         System.out.println(Arrays.toString(arr));
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
-        Arrays.sort(arr, new Comparator<BerylliumSphere>() {
-            @Override
-            public int compare(BerylliumSphere o1, BerylliumSphere o2) {
-                return o1.getId() < o2.getId() ? -1 : 1;
-            }
-        });
+        Arrays.sort(arr, (BerylliumSphere o1, BerylliumSphere o2) -> (int) (o1.getId() - o2.getId()));
         System.out.println(Arrays.toString(arr));
     }
 }

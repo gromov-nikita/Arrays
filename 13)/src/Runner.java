@@ -6,11 +6,11 @@ Exercise 13: (2) Fill a String using CountingGenerator.Character.
 public class Runner {
     public static void main(String[] args) {
         CountingGenerator.Character obj = new CountingGenerator.Character();
+        StringBuilder stringBuilder = new StringBuilder();
         int size = 10;
-        String str = "";
         for(int i = 0; i < size; i++) {
-            str += obj.next();
+            stringBuilder.append(obj.next());
         }
-        System.out.println(str);
+        System.out.println(stringBuilder);
     }
 }

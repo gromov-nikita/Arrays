@@ -9,6 +9,6 @@ public class BerylliumSphere implements Comparable<BerylliumSphere>{
     }
     @Override
     public int compareTo(BerylliumSphere o) {
-        return this.id > o.id ? -1 : 1;
+        return (int) (o.id - this.id);
     }
 }

@@ -9,7 +9,7 @@ first method. In main( ) test the methods by creating and printing several diffe
 arrays.
  */
 public class Runner {
-    public static double[][][] newArray(int layers, int rows, int columns) throws IllegalArgumentException{
+    public static <T> T[][][] newArray(int layers, int rows, int columns) throws IllegalArgumentException{
         int max,min;
         if(layers <= 0 || rows <= 0 || columns <= 0) {
             throw new IllegalArgumentException();
@@ -24,7 +24,7 @@ public class Runner {
                 min = rows;
             }
         }
-        double[][][] arr = new double[layers][rows][columns];
+        Object[][][] arr = new Object[layers][rows][columns];
         for(int i = 0; i < layers; i++) {
             for (int j = 0; j < rows; j++) {
                 for (int k = 0; k < columns; k++) {
@@ -32,9 +32,9 @@ public class Runner {
                 }
             }
         }
-        return arr;
+        return (T[][][])arr;
     }
-    public static void printArray(double[][][] arr) {
+    public static <T> void printArray(T[][][] arr) {
         for(int i = 0; i < arr.length; i++) {
             for(int j = 0; j < arr[0].length; j++) {
                 for (int k = 0; k < arr[0][0].length; k++) {
