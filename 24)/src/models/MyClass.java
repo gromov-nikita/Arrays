@@ -7,12 +7,8 @@ public class MyClass implements Comparable<MyClass> {
     }
     @Override
     public int compareTo(MyClass o) {
-        if(this.value == o.value) {
-            return 0;
-        }
-        else {
-            return this.value > o.value ? 1 : -1;
-        }
+        return this.value - o.value;
+
     }
     @Override
     public String toString() {
